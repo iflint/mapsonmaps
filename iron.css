@@ -8,7 +8,7 @@ body {
 	padding:0;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
-	background-color: #A2DED0;
+	
 }
 
 a {
@@ -103,20 +103,23 @@ input {
 	width: 100%;
 	text-align: center;
 	margin-top: 50px;
+	background-image: url('http://41.media.tumblr.com/cf6b9e0360f7a681e103d67f137e6724/tumblr_n33mynxkjc1s7e0dto1_1280.jpg');
+	background-size: cover;
 }
 
 .topPost {
 	width: 100%;
 	text-align: center;
 	background-color: #336E7B;
-	margin-top: 80px;
+	margin-top: 50px;
+	padding-top: 2px;
 }
 
 .inPosts {
 	height: 130px;
 	width: 250px;
 	display: inline-block;
-	background-color: #26A65B;
+	background-color: #336E7B;
 	left: 0;
 	right: 0;
 	margin: auto;
