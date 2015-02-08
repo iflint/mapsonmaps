@@ -1,0 +1,85 @@
+<head>
+  <title>iron</title>
+
+  <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.css">
+	<script src="http://cdn.leafletjs.com/leaflet-0.7.2/leaflet.js"></script>
+
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+</head>
+
+<template name="layout">
+	<div class="all">
+		<div class="header">
+			<a href="{{pathFor 'main'}}"><h1 class="logo">Maps on Maps</h1></a>
+			<!-- <h1 class="rightHeader">settings</h1> -->
+		</div>
+		{{> yield}}
+	</div>
+</template>
+
+
+
+<template name="main">
+	
+	<div class="outPosts">
+		<div class="topPost">
+			<h1>MAPS</h1>
+		</div>
+
+		{{#each posts}}
+			{{> post}}
+		{{/each}}
+	</div>
+
+	<div id="moreBarMap" class="moreBar">
+		<form><br>
+			<input type="text" name="title" placeholder="Title"><br><br>
+			<input type="text" name="sub" placeholder="Subtitle"><br><br>
+			<input type="submit" value="Add Map">
+		</form>
+
+	</div>
+
+	<div class="bottomBar">
+		<button class="barButton">search</button>
+		<button class="addMap barButton">add map</button>
+	</div>
+
+</template>
+
+		<template name="post">
+			<div class="inPosts">
+				<h2>{{title}}</h2>
+				<p>{{sub}}</p>
+				<a href="{{pathFor 'map'}}">view map</a>
+			</div>
+		</template>
+
+
+
+<template name="map">
+		
+		<div id="map"></div>
+
+		<div id="moreBarPoint" class="moreBar">
+			<form>
+				<h3>Click a point on the map to get coordinates</h3>
+				<input id="xcoord" type="text" name="xcoordin" placeholder="X-Coordinate">
+				<input id="ycoord" type="text" name="ycoordin" placeholder="Y-Coordinate"><br>
+				<h3>Customize your post</h3>
+				<input type="text" name="pointTitle" placeholder="Title"><br><br>
+				<input type="submit" value="Add Point">
+			</form>
+
+		</div>
+
+		<div class="bottomBar">
+			<button class="findMe barButton">find me</button>
+			<button class="addPoint barButton">add point</button>
+		</div>
+
+
+</template>
+
+		

@@ -1,0 +1,128 @@
+/* CSS declarations go here */
+
+@import url(http://fonts.googleapis.com/css?family=Lily+Script+One);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+body {
+	margin:0;
+	padding:0;
+	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #A2DED0;
+}
+
+a {
+	text-decoration: none;
+	color: yellow;
+}
+
+input {
+	height: 20px;
+	width: 200px;
+
+	border-radius: 10px;
+}
+
+.header {
+	
+	position: fixed;
+	background-color: #26A65B;
+	width: 100%;
+	height: 50px;
+	top: 0;
+	left: 0;
+	right: 0;
+	font-family: 'Lily Script One', cursive;
+	font-size: 13px;
+	border-bottom: solid #89C4F4;
+}
+
+.logo {
+	float: left;
+	color: white;
+}
+
+#map {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	top: 53px;
+	color: black;
+}
+
+/* bottom bar -------------------------- */
+
+.moreBar {
+	position: fixed;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	height: 260px;
+	background-color: #336E7B;
+	display: none;
+	text-align: center;
+}
+
+.bottomBar {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+	background-color: #26A65B;
+	border-top: solid #89C4F4;
+
+}
+
+.barButton {
+	height: 70px;
+	width: 70px;
+	border: none;
+	margin-left: 8px;
+	background-color: #336E7B;
+	color: white;
+	border-radius: 35px;
+	margin-top: -35px;
+	border: solid #26A65B;
+}
+
+.barButton:hover {
+	background-color: white;
+	color: #26A65B;
+}
+
+.barButton:active {
+	color: #336E7B;
+	background-color: yellow;
+}
+
+/* main template's css below  --------------------------  */
+
+.outPosts {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.topPost {
+	width: 100%;
+	text-align: center;
+	background-color: #336E7B;
+	margin-top: 80px;
+}
+
+.inPosts {
+	height: 130px;
+	width: 250px;
+	display: inline-block;
+	background-color: #26A65B;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-bottom: double #89C4F4;
+	border-right: double #89C4F4;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 10px;
+}
