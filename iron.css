@@ -34,7 +34,7 @@ input {
 	right: 0;
 	font-family: 'Lily Script One', cursive;
 	font-size: 13px;
-	border-bottom: solid #89C4F4;
+	border-bottom: double #89C4F4;
 }
 
 .logo {
@@ -71,7 +71,7 @@ input {
 	width: 100%;
 	height: 50px;
 	background-color: #26A65B;
-	border-top: solid #89C4F4;
+	border-top: double #89C4F4;
 
 }
 
