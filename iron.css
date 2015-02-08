@@ -105,6 +105,7 @@ input {
 	margin-top: 50px;
 	background-image: url('http://41.media.tumblr.com/cf6b9e0360f7a681e103d67f137e6724/tumblr_n33mynxkjc1s7e0dto1_1280.jpg');
 	background-size: cover;
+	min-height: 1000px;
 }
 
 .topPost {
