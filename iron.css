@@ -28,13 +28,17 @@ input {
 	position: fixed;
 	background-color: #26A65B;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	top: 0;
 	left: 0;
 	right: 0;
 	font-family: 'Lily Script One', cursive;
 	font-size: 13px;
 	box-shadow: 0px 2px #89C4F4;
+}
+
+.header h1 {
+	margin-top: 7px;
 }
 
 .logo {
@@ -47,8 +51,8 @@ input {
 	position: fixed;
 	left: 0;
 	right: 0;
-	bottom: 50px;
-	top: 52px;
+	bottom: 40px;
+	top: 42px;
 	color: black;
 }
 
@@ -56,7 +60,7 @@ input {
 
 .moreBar {
 	position: fixed;
-	bottom: 50px;
+	bottom: 40px;
 	left: 0;
 	right: 0;
 	height: 260px;
@@ -70,10 +74,9 @@ input {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	background-color: #26A65B;
 	box-shadow: 0px 0px 0px 2px #89C4F4;
-
 }
 
 .barButton {
@@ -85,7 +88,7 @@ input {
 	color: white;
 	border-radius: 35px;
 	margin-top: -35px;
-	border: solid #26A65B;
+	border: double #89C4F4;
 }
 
 .barButton:hover {
@@ -103,17 +106,18 @@ input {
 .outPosts {
 	width: 100%;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 40px;
 	background-image: url('http://41.media.tumblr.com/cf6b9e0360f7a681e103d67f137e6724/tumblr_n33mynxkjc1s7e0dto1_1280.jpg');
 	background-size: cover;
 	min-height: 1000px;
+	padding-bottom: 100px;
 }
 
 .topPost {
 	width: 100%;
 	text-align: center;
 	background-color: #336E7B;
-	margin-top: 50px;
+	margin-top: 40px;
 	padding-top: 2px;
 }
 
